@@ -1,0 +1,9 @@
+Class :
+A class is a blueprint for creating objects.
+It defines a set of attributes (variables) and methods (functions) that the created objects will have.
+Classes encapsulate data and functionality together.
+
+Object :
+An object is an instance of a class. When a class is defined, no memory is allocated until an object is created from that class.
+Each object can have different values for the attributes defined in the class.
+
