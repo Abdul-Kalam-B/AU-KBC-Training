@@ -1,0 +1,13 @@
+Creating DataFrames: Use pd.DataFrame(data) to create DataFrames from dictionaries or arrays.
+
+Selecting Data: Access columns with df['column_name'], rows by index with df.iloc[index], and filter with conditions (e.g., df[df['column'] > value]).
+
+Adding/Modifying Columns: Add a new column with df['new_column'] = value and modify existing ones similarly.
+
+Handling Missing Data: Use df.fillna(value) to fill missing values or df.dropna() to remove them.
+
+Grouping Data: Group by a column with df.groupby('column').mean() for aggregations.
+
+Merging DataFrames: Combine DataFrames with pd.merge(df1, df2, on='key').
+
+Sorting Data: Sort by columns using df.sort_values(by='column').
