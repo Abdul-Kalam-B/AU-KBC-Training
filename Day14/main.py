@@ -16,7 +16,7 @@ class EmployeeInDB(Employee):
 
 app = FastAPI()
 
-MONGODB_URL = "mongodb+srv://abdulkalamb23:Mongo123@pymongo.tvmog.mongodb.net/fast?retryWrites=true&w=majority&appName=Pymongo"  # Replace with your MongoDB connection string
+MONGODB_URL = "mongodb+srv://abdulkalamb23:password@pymongo.tvmog.mongodb.net/fast?retryWrites=true&w=majority&appName=Pymongo"  # Replace with your MongoDB connection string
 client = AsyncIOMotorClient(MONGODB_URL)
 db = client["employee_management"] 
 collection = db["employees"]  
